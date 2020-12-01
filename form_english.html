@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sandeepani Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/formstyle.css">
+  </head>
+  <body>
+    <div class="banner1"> 
+          <img src="img/logo.jpeg" alt="logo" width="250" height="250"> 
+    </div>
+        <div class="testbox">
+          <form action="/">
+            <div class="banner2">
+              <h1>Sandeepani Scholarship Application Form</h1>
+            </div>
+
+
+        <h2>Scholarship Grade</h2>
+        <div class="item">
+          <p>Select the Scholarship Grade you want to apply for:</p>
+          <select>
+            <option value="">Grade</option>
+            <option value="1">Primary</option>
+            <option value="2">Secondary</option>
+            <option value="3">PUC/Diploma</option>
+            <option value="4">Engineering/Medical</option>
+            <option value="5">Post Graduation</option>
+            <option value="5">PHD</option>
+          </select>
+        </div>
+
+
+        <h2>Applicant Details</h2>
+        <div class="item">
+          <p>Name</p>
+            <input type="text" name="name"/>
+        </div>
+
+        <div class="question">
+          <p>Gender</p>
+          <div>
+            <input type="radio" id="radio_male" name="gender" required/>
+            <label for="radio_1" class="radio"><span>Male</span></label>
+            <input type="radio" id="radio_female" name="gender" required/>
+            <label for="radio_2" class="radio"><span>Female</span></label>
+        </div>
+        </div>
+
+        <div class="item">
+          <p>Mobile</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Email</p>
+          <input type="text" name="name"/>
+        </div>
+
+        <div class="item">
+          <p>Marital Status:</p>
+          <select>
+            <option value="1">Single</option>
+            <option value="2">Married</option>
+            <option value="3">Widowed</option>
+            <option value="4">Separated</option>
+            <option value="5">Divorced</option>
+          </select>
+        </div>
+
+        <div class="question">
+          <p>Are you a Specially Abled Person?</p>
+          <div>
+            <input type="radio" id="radio_yes" name="able" required/>
+            <label for="radio_1" class="radio"><span>Yes</span></label>
+            <input type="radio" id="radio_no" name="able" required/>
+            <label for="radio_2" class="radio"><span>No</span></label>
+        </div>
+        </div>
+
+        <div class="item">
+          <p>Date Of Birth</p>
+          <input type="date" name="bdate"/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+
+        <div class="item">
+          <p>Proof of DOB</p>
+          <input type="file" id="dob" name="filename">
+        </div>
+
+        <div class="item">
+          <p>Address</p>
+          <input type="text" name="name" placeholder="Street address" />
+          <input type="text" name="name" placeholder="Street address line 2" />
+          <div class="city-item">
+            <input type="text" name="name" placeholder="Taluka/City" />
+            <input type="text" name="name" placeholder="Village/Ward" />
+            <input type="text" name="name" placeholder="Postal / Zip code" />
+            <select>
+              <option value="">District</option>
+              <option value="1">Bagalkote</option>
+              <option value="2">Ballari</option>
+              <option value="3">Belagavi</option>
+              <option value="4">Bengaluru Rural</option>
+              <option value="5">Bengaluru Urban</option>
+            </select>
+          </div>
+        </div>
+        
+
+        <h2>Caste & Income Details</h2>
+        <p>Note: If you do not have EWS Certificate please apply in nadakacheri 
+          and enter RD number and upload acknowledgment receipt.
+        </p>
+        <div class="question">
+          <p>Do you belong to EWS?</p>
+          <div>
+            <input type="radio" id="radio_ews" name="able" required/>
+            <label for="radio_1" class="radio"><span>Yes</span></label>
+            <input type="radio" id="radio_ews1" name="able" required/>
+            <label for="radio_2" class="radio"><span>No</span></label>
+        </div>
+        </div>
+
+        <div class="item">
+          <p>RD/TC/Study Certificate Number</p>
+            <input type="text" name="name" placeholder="Enter 15 digit RD number"/>
+        </div>
+
+        <div class="item">
+          <p>Upload Certificate</p>
+          <input type="file" id="rd" name="filename">
+        </div>
+      
+        <h2>Parent/Guardian Details</h2>
+        <div class="item">
+          <p>Parent Name</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Phone</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Permanent Address</p>
+          <input type="text" name="name" placeholder="Street address" />
+          <input type="text" name="name" placeholder="Street address line 2" />
+          <div class="city-item">
+            <input type="text" name="name" placeholder="Taluka/City" />
+            <input type="text" name="name" placeholder="Village/Ward" />
+            <input type="text" name="name" placeholder="Postal / Zip code" />
+            <select>
+              <option value="">District</option>
+              <option value="1">Bagalkote</option>
+              <option value="2">Ballari</option>
+              <option value="3">Belagavi</option>
+              <option value="4">Bengaluru Rural</option>
+              <option value="5">Bengaluru Urban</option>
+            </select>
+          </div>
+        </div>
+        <div class="item">
+          <p>Occupation of the Parent/Guardian(*If agriculturists the details of land holdings
+            in Acres/Guntas with description of the crop)</p>
+          <textarea rows="3" required></textarea>
+        </div>
+        <div class="item">
+          <p>Annual of the Parent/Guardian(*Aggregate of the last three years)</p>
+          <input type="text" name="name"/>
+        </div>
+      
+        
+
+        <h2>Education Details</h2>
+        <div>
+          <h3>1.SSLC/CBSE/ICSE Details</h3>
+          <div class="item">
+            <p>Register No.</p>
+              <input type="text" name="name"/>
+          </div>
+          <div class="item">
+            <p>Year of Completion</p>
+            <input type="text" name="name"/>
+          </div>
+          <div class="item">
+            <p>Medium of Instruction</p>
+            <input type="text" name="name"/>
+          </div>
+          <div class="item">
+          <div class="item-inline">
+            <p>Maximum Marks</p>
+            <input type="text" name="name"/>
+            <p>Obtained Marks</p>
+            <input type="text" name="name"/>
+          </div>
+        </div>
+          <div class="item">
+            <p>Percentage(%)</p>
+            <input type="text" name="name"/>
+          </div>
+        </div>
+        <div class="item">
+            <p>Marks Card</p>
+            <input type="file" id="marks_10" name="filename">
+          </div>
+
+
+          <div>
+            <h3>2. PUC/12th/Diploma Details</h3>
+            <div class="item">
+              <p>Register No.</p>
+                <input type="text" name="name"/>
+            </div>
+            <div class="item">
+              <p>Year of Completion</p>
+              <input type="text" name="name"/>
+            </div>
+            <div class="item">
+              <p>Medium of Instruction</p>
+              <input type="text" name="name"/>
+            </div>
+            <div class="item">
+            <div class="item-inline">
+              <p>Maximum Marks</p>
+              <input type="text" name="name"/>
+              <p>Obtained Marks</p>
+              <input type="text" name="name"/>
+            </div>
+          </div>
+            <div class="item">
+              <p>Percentage(%)</p>
+              <input type="text" name="name"/>
+            </div>
+          </div>
+          <div class="item">
+              <p>Marks Card</p>
+              <input type="file" id="marks_pu" name="filename">
+            </div>
+
+
+            <div>
+              <h3>3.Enter Graduation Details </h3>
+              <div class="item">
+                <p>Course Type</p>
+                  <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>Year of Completion</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>Medium of Instruction</p>
+                <input type="text" name="name"/>
+              </div>
+
+              <div class="question">
+                <p>Score in Percentage/CGPA</p>
+                <div>
+                  <input type="radio" id="radio_1" name="score" required/>
+                  <label for="radio_1" class="radio"><span>Percentage</span></label>
+                  <input type="radio" id="radio_2" name="score" required/>
+                  <label for="radio_2" class="radio"><span>CGPA</span></label>
+              </div>
+              </div>
+
+              <div class="item">
+                <p>Overall Percentage(%)/ CGPA</p>
+                <input type="text" name="name"/>
+              </div>
+            </div>
+            <div class="item">
+                <p>Graduation Certificate</p>
+                <input type="file" id="marks_degree" name="filename">
+            </div>
+
+            <div>
+              <h3>4.Enter Post Graduation Details </h3>
+              <div class="item">
+                <p>Course Type</p>
+                  <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>Year of Completion</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>Medium of Instruction</p>
+                <input type="text" name="name"/>
+              </div>
+
+              <div class="question">
+                <p>Score in Percentage/CGPA</p>
+                <div>
+                  <input type="radio" id="radio_3" name="pgscore" required/>
+                  <label for="radio_1" class="radio"><span>Percentage</span></label>
+                  <input type="radio" id="radio_4" name="pgscore" required/>
+                  <label for="radio_2" class="radio"><span>CGPA</span></label>
+              </div>
+              </div>
+
+              <div class="item">
+                <p>Overall Percentage(%)/ CGPA</p>
+                <input type="text" name="name"/>
+              </div>
+            </div>
+            <div class="item">
+                <p>Graduation Certificate</p>
+                <input type="file" id="marks_pg" name="filename">
+            </div>
+
+
+            <div>
+              <h3>5. Add another Course if applicabe </h3>
+              <div class="item">
+                <p>Course Type</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>Year of Completion</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>Medium of Instruction</p>
+                <input type="text" name="name"/>
+              </div>
+
+              <div class="question">
+                <p>Score in Percentage/CGPA</p>
+                <div>
+                  <input type="radio" id="radio_5" name="pgscore" required/>
+                  <label for="radio_1" class="radio"><span>Percentage</span></label>
+                  <input type="radio" id="radio_6" name="pgscore" required/>
+                  <label for="radio_2" class="radio"><span>CGPA</span></label>
+              </div>
+              </div>
+
+              <div class="item">
+                <p>Overall Percentage(%)/ CGPA</p>
+                <input type="text" name="name"/>
+              </div>
+            </div>
+            <div class="item">
+                <p>Graduation Certificate</p>
+                <input type="file" id="marks_other" name="filename">
+            </div>
+
+      <h2>Bank Account Details</h2>
+      <div>
+      <div class="item">
+        <p>Name of the Account Holder</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>Bank Account No</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>Name of the Branch</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>IFSC code</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>Scanned copy of First page of Bank passbook</p>
+        <input type="file" id="passbook1" name="filename">
+      </div>
+    </div>
+
+      <h2>Upload Documents</h2>
+      <div>
+      <h3>Click on the "Choose File" button to upload a file:</h3>
+      <div class="item">
+        <p>1. Declaration from the Head of the Institution</p>
+        <input type="file" id="myFile1" name="filename">
+      </div>
+      <div class="item">
+        <p>2. Oath by the student applying for Scholarship</p>
+        <input type="file" id="myFile2" name="filename">
+      </div>
+    </div>
+
+
+        <div class="question">
+          <p>Declaration<span class="required">*</span></p>
+          <div class="question-answer checkbox-item">
+            <div>
+              <input type="checkbox" value="none" id="check_1" name="check1" required/>
+              <label for="check_1" class="check"><b><span>Declaration 1: This is to confirm that the above mentioned information is true to the best of my belief. 
+                I shall be liable for disqualification in case of any incorrect information.</span></b></label>
+            </div>
+            <div>
+              <input type="checkbox" value="none" id="check_2" name="check2" required/>
+              <label for="check_2" class="check"><b><span>Aadhar Consent: I agree to provide my Aadhar No./Enrolment ID and Aadhar
+                of my Parents/Guardian for availing the Scholarship benefit given by Government of Karnataka.</span></b></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

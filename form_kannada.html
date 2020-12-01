@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sandeepani Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/formstyle.css">
+  </head>
+  <body>
+    <div class="banner1"> 
+      <img src="img/logo.jpeg" alt="logo" width="250" height="250"> 
+    </div>
+
+    <div class="testbox">
+      <form action="/">
+        <div class="banner2">
+          <h1>ಸಾಂದೀಪನಿ ಶಿಷ್ಯವೇತನ ಅರ್ಜಿ ನಮೂನೆ</h1>
+        </div>
+
+        <h2>ಶಿಷ್ಯವೇತನ ದರ್ಜೆ</h2>
+        <div class="item">
+          <p>ನೀವು ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಬಯಸುವ ವಿದ್ಯಾರ್ಥಿವೇತನ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ:</p>
+          <select>
+            <option value="">ದರ್ಜೆ</option>
+            <option value="1">ಪ್ರಾಥಮಿಕ ಶಿಕ್ಷಣ</option>
+            <option value="2">ಪ್ರೌಢ ಶಿಕ್ಷಣ</option>
+            <option value="3">ಪದವಿಪೂರ್ವ / ಡಿಪ್ಲೊಮಾ ತರಗತಿಗಳು </option>
+            <option value="4">ಪದವಿ ತರಗತಿಗಳು </option>
+            <option value="5">ಎಂಜಿನಿಯರಿಂಗ್ / ವೈದ್ಯಕೀಯ ಪದವಿ</option>
+            <option value="6">ಸ್ನಾತಕೋತ್ತರ ಪದವಿ</option>
+            <option value="7">ಪಿಎಚ್‌ಡಿ</option>
+          </select>
+        </div>
+
+        <h2>ಅರ್ಜಿದಾರರ ವಿವರಗಳು</h2>
+        <div class="item">
+          <p>ಹೆಸರು</p>
+            <input type="text" name="name"/>
+        </div>
+        <div class="question">
+          <p>ಲಿಂಗ</p>
+          <div>
+            <input type="radio" id="radio_male" name="gender" required/>
+            <label for="radio_1" class="radio"><span>ಪುರುಷ</span></label>
+            <input type="radio" id="radio_female" name="gender" required/>
+            <label for="radio_2" class="radio"><span>ಸ್ತ್ರೀ</span></label>
+        </div>
+        </div>
+        <div class="item">
+          <p>ದೂರವಾಣಿ</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>ಇ-ಮೇಲ್</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>ವೈವಾಹಿಕ ಸ್ಥಿತಿ:</p>
+          <select>
+            <option value="1">ಏಕಮಾತ್ರ</option>
+            <option value="2">ವಿವಾಹಿತ</option>
+            <option value="3">ವಿಧವೆ</option>
+            <option value="4">ಪ್ರತ್ಯೇಕ</option>
+            <option value="5">ವಿಚ್ಛೇದಿತ </option>
+          </select>
+        </div>
+        <div class="question">
+          <p>ನೀವು ವಿಶೇಷ ಸಾಮರ್ಥ್ಯ ಹೊಂದಿರುವ ವ್ಯಕ್ತಿಯೇ?</p>
+          <div>
+            <input type="radio" id="radio_yes" name="able" required/>
+            <label for="radio_1" class="radio"><span>ಹೌದು</span></label>
+            <input type="radio" id="radio_no" name="able" required/>
+            <label for="radio_2" class="radio"><span>ಇಲ್ಲ</span></label>
+        </div>
+        </div>
+        <div class="item">
+          <p>ಹುಟ್ಟಿದ ದಿನಾಂಕ</p>
+          <input type="date" name="bdate"/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+          <p>ಜನನ  ಪ್ರಮಾಣ ಪತ್ರ</p>
+          <input type="file" id="dob" name="filename">
+        </div>
+        <div class="item">
+          <p>ವಿಳಾಸ</p>
+          <input type="text" name="name" placeholder="ರಸ್ತೆಯ ವಿಳಾಸ" />
+          <input type="text" name="name" placeholder="ರಸ್ತೆಯ ವಿಳಾಸ line 2" />
+          <div class="city-item">
+            <input type="text" name="name" placeholder="ನಗರ" />
+            <input type="text" name="name" placeholder="ಪ್ರದೇಶ" />
+            <input type="text" name="name" placeholder="ಅಂಚೆ / ಪಿನ್ ಕೋಡ್" />
+            <select>
+              <option value="">ಜಿಲ್ಲೆ</option>
+              <option value="1">ಬಾಗಲಕೋಟೆ</option>
+              <option value="2">ಬಳ್ಳಾರಿ</option>
+              <option value="3">ಬೆಳಗಾವಿ</option>
+              <option value="4">ಬೆಂಗಳೂರು ಗ್ರಾಮೀಣ</option>
+              <option value="5">ಬೆಂಗಳೂರು ನಗರ</option>
+            </select>
+          </div>
+        </div>
+
+        <h2>ಜಾತಿ ಮತ್ತು ಆದಾಯದ ವಿವರಗಳು</h2>
+        <p>ಗಮನಿಸಿ: ನಿಮ್ಮ ಬಳಿ EWS ಪ್ರಮಾಣಪತ್ರವಿಲ್ಲದಿದ್ದರೆ ದಯವಿಟ್ಟು ನಾಡಕಚೇರಿಯಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ
+          ಮತ್ತು RD ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಸ್ವೀಕೃತಿ ರಶೀದಿಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.
+        </p>
+        <div class="question">
+          <p>ನೀವು EWSಗೆ  ಸೇರಿದ್ದೀರಾ?</p>
+          <div>
+            <input type="radio" id="radio_ews" name="able" required/>
+            <label for="radio_1" class="radio"><span>ಹೌದು</span></label>
+            <input type="radio" id="radio_ews1" name="able" required/>
+            <label for="radio_2" class="radio"><span>ಇಲ್ಲ</span></label>
+        </div>
+        </div>
+
+        <div class="item">
+          <p>RD / TC / ಸ್ಟಡಿ ಸರ್ಟಿಫಿಕೇಟ್ ಸಂಖ್ಯೆ</p>
+            <input type="text" name="name" placeholder="15 ಅಂಕಿಯ RD ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"/>
+        </div>
+
+        <div class="item">
+          <p>ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</p>
+          <input type="file" id="rd" name="filename">
+        </div>
+
+
+        <h2>ಪಾಲಕ ಅಥವಾ ಪೋಷಕರ ವಿವರ</h2>
+        <div class="item">
+          <p>ಪಾಲಕರ/ಪೋಷಕರ ಹೆಸರು</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>ದೂರವಾಣಿ</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>ವಿಳಾಸ</p>
+          <input type="text" name="name" placeholder="ರಸ್ತೆಯ ವಿಳಾಸ" />
+          <input type="text" name="name" placeholder="ರಸ್ತೆಯ ವಿಳಾಸ line 2" />
+          <div class="city-item">
+            <input type="text" name="name" placeholder="ನಗರ" />
+            <input type="text" name="name" placeholder="ಪ್ರದೇಶ" />
+            <input type="text" name="name" placeholder="ಅಂಚೆ / ಪಿನ್ ಕೋಡ್" />
+            <select>
+                <option value="">ಜಿಲ್ಲೆ</option>
+                <option value="1">ಬಾಗಲಕೋಟೆ</option>
+                <option value="2">ಬಳ್ಳಾರಿ</option>
+                <option value="3">ಬೆಳಗಾವಿ</option>
+                <option value="4">ಬೆಂಗಳೂರು ಗ್ರಾಮೀಣ</option>
+                <option value="5">ಬೆಂಗಳೂರು ನಗರ</option>
+              </select>
+          </div>
+        </div>
+        <div class="item">
+          <p>ಪಾಲಕರ/ಪೋಷಕರ ಉದ್ಯೋಗ(ಕೃಷಿಕರಾಗಿದ್ದಲ್ಲಿ ಹೊಂದಿರುವ ಜಮೀನಿನ ವಿವರ ಎಕರೆ / ಗುಂಟೆ ಮತ್ತು 
+              ಬೆಳೆ ವಿವರ )</p>
+          <textarea rows="3" required></textarea>
+        </div>
+        <div class="item">
+          <p>ಎಲ್ಲಾ ಮೂಲಗಳಿಂದ ಪಾಲಕರ/ಪೋಷಕರ ವಾರ್ಷಿಕ ವರಮಾನ (ಕಳೆದ ಮೂರು ವರ್ಷದ ಸರಾಸರಿ) </p>
+          <input type="text" name="name"/>
+        </div>
+
+        
+
+      <h2>ಶಿಕ್ಷಣ ವಿವರಗಳು</h2>
+        <div>
+          <h3>1.ಎಸ್‌ಎಸ್‌ಎಲ್‌ಸಿ / ಸಿಬಿಎಸ್‌ಇ / ಐಸಿಎಸ್‌ಇ ವಿವರಗಳು</h3>
+          <div class="item">
+            <p>ನೋಂದಣಿ ಸಂಖ್ಯೆ.</p>
+              <input type="text" name="name"/>
+          </div>
+          <div class="item">
+            <p>ಪೂರ್ಣಗೊಂಡ ವರ್ಷ</p>
+            <input type="text" name="name"/>
+          </div>
+          <div class="item">
+            <p>ಬೋಧನೆಯ ಮಧ್ಯಮ</p>
+            <input type="text" name="name"/>
+          </div>
+          <div class="item">
+          <div class="item-inline">
+            <p>ಗರಿಷ್ಠ ಅಂಕಗಳು</p>
+            <input type="text" name="name"/>
+            <p>ಪಡೆದ ಅಂಕಗಳು</p>
+            <input type="text" name="name"/>
+          </div>
+        </div>
+          <div class="item">
+            <p>ಶೇಕಡಾವಾರು(%)</p>
+            <input type="text" name="name"/>
+          </div>
+        </div>
+        <div class="item">
+            <p>ಅಂಕಪಟ್ಟಿ</p>
+            <input type="file" id="marks_10" name="filename">
+          </div>
+
+
+          <div>
+            <h3>2. ಪದವಿಪೂರ್ವ / ಡಿಪ್ಲೊಮಾ ವಿವರಗಳು</h3>
+            <div class="item">
+              <p>ನೋಂದಣಿ ಸಂಖ್ಯೆ.</p>
+                <input type="text" name="name"/>
+            </div>
+            <div class="item">
+              <p>ಪೂರ್ಣಗೊಂಡ ವರ್ಷ</p>
+              <input type="text" name="name"/>
+            </div>
+            <div class="item">
+              <p>ಬೋಧನೆಯ ಮಧ್ಯಮ</p>
+              <input type="text" name="name"/>
+            </div>
+            <div class="item">
+            <div class="item-inline">
+              <p>ಗರಿಷ್ಠ ಅಂಕಗಳು</p>
+              <input type="text" name="name"/>
+              <p>ಪಡೆದ ಅಂಕಗಳು</p>
+              <input type="text" name="name"/>
+            </div>
+          </div>
+            <div class="item">
+              <p>ಶೇಕಡಾವಾರು(%)</p>
+              <input type="text" name="name"/>
+            </div>
+          </div>
+          <div class="item">
+              <p>ಅಂಕಪಟ್ಟಿ</p>
+              <input type="file" id="marks_pu" name="filename">
+            </div>
+
+
+            <div>
+              <h3>3.ಪದವಿ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ </h3>
+              <div class="item">
+                <p>ಕೋರ್ಸ್ ಪ್ರಕಾರ</p>
+                  <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>ಪೂರ್ಣಗೊಂಡ ವರ್ಷ</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>ಬೋಧನೆಯ ಮಧ್ಯಮ</p>
+                <input type="text" name="name"/>
+              </div>
+
+              <div class="question">
+                <p>ಶೇಕಡಾವಾರು / ಸಿಜಿಪಿಎ</p>
+                <div>
+                  <input type="radio" id="radio_1" name="score" required/>
+                  <label for="radio_1" class="radio"><span>ಶೇಕಡಾವಾರು</span></label>
+                  <input type="radio" id="radio_2" name="score" required/>
+                  <label for="radio_2" class="radio"><span>ಸಿಜಿಪಿಎ</span></label>
+              </div>
+              </div>
+
+              <div class="item">
+                <p>ಶೇಕಡಾವಾರು(%)/ ಸಿಜಿಪಿಎ</p>
+                <input type="text" name="name"/>
+              </div>
+            </div>
+            <div class="item">
+                <p>ಪದವಿ ಪ್ರಮಾಣಪತ್ರ</p>
+                <input type="file" id="marks_degree" name="filename">
+            </div>
+
+            <div>
+              <h3>4.ಸ್ನಾತಕೋತ್ತರ ಪದವಿ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ </h3>
+              <div class="item">
+                <p>ಕೋರ್ಸ್ ಪ್ರಕಾರ</p>
+                  <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>ಪೂರ್ಣಗೊಂಡ ವರ್ಷ</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>ಬೋಧನೆಯ ಮಧ್ಯಮ</p>
+                <input type="text" name="name"/>
+              </div>
+
+              <div class="question">
+                <p>ಶೇಕಡಾವಾರು / ಸಿಜಿಪಿಎ</p>
+                <div>
+                  <input type="radio" id="radio_3" name="pgscore" required/>
+                  <label for="radio_1" class="radio"><span>ಶೇಕಡಾವಾರು</span></label>
+                  <input type="radio" id="radio_4" name="pgscore" required/>
+                  <label for="radio_2" class="radio"><span>ಸಿಜಿಪಿಎ</span></label>
+              </div>
+              </div>
+
+              <div class="item">
+                <p>ಶೇಕಡಾವಾರು(%)/ ಸಿಜಿಪಿಎ</p>
+                <input type="text" name="name"/>
+              </div>
+            </div>
+            <div class="item">
+                <p>ಪದವಿ ಪ್ರಮಾಣಪತ್ರ</p>
+                <input type="file" id="marks_pg" name="filename">
+            </div>
+
+
+            <div>
+              <h3>5. ಪಿಎಚ್‌ಡಿ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ</h3>
+              <div class="item">
+                <p>ಕೋರ್ಸ್ ಪ್ರಕಾರ</p>
+                  <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>ಪೂರ್ಣಗೊಂಡ ವರ್ಷ</p>
+                <input type="text" name="name"/>
+              </div>
+              <div class="item">
+                <p>ಬೋಧನೆಯ ಮಧ್ಯಮ</p>
+                <input type="text" name="name"/>
+              </div>
+
+              <div class="question">
+                <p>ಶೇಕಡಾವಾರು / ಸಿಜಿಪಿಎ</p>
+                <div>
+                  <input type="radio" id="radio_5" name="pgscore" required/>
+                  <label for="radio_1" class="radio"><span>ಶೇಕಡಾವಾರು</span></label>
+                  <input type="radio" id="radio_6" name="pgscore" required/>
+                  <label for="radio_2" class="radio"><span>ಸಿಜಿಪಿಎ</span></label>
+              </div>
+              </div>
+
+              <div class="item">
+                <p>ಶೇಕಡಾವಾರು(%)/ ಸಿಜಿಪಿಎ</p>
+                <input type="text" name="name"/>
+              </div>
+            </div>
+            <div class="item">
+                <p>ಪದವಿ ಪ್ರಮಾಣಪತ್ರ</p>
+                <input type="file" id="marks_other" name="filename">
+            </div>
+
+
+
+
+
+      <h2>ಬ್ಯಾಂಕ್ ಖಾತೆಯ ವಿವರಗಳು</h2>
+      <div class="item">
+        <p>ಖಾತೆದಾರರ ಹೆಸರು</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>ಬ್ಯಾಂಕ್ ಖಾತೆಯ ಸಂಖ್ಯೆ</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>ಬ್ಯಾಂಕ್ ಶಾಖೆಯ ಹೆಸರು </p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>ಬ್ಯಾಂಕ್ ಪಾಸ್ ಬುಕ್ಕಿನ ಮೊದಲನೇ ಪುಟದ ಪ್ರತಿ</p>
+        <input type="file" id="passbook1" name="filename">
+        
+      </div>
+
+      <h2>ದಾಖಲೆಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</h2>
+      <div>
+      <h3>ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ" ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ:</h3>
+      <div class="item">
+        <p>1. ಅರ್ಜಿದಾರರು ವ್ಯಾಸಂಗ ಮಾಡುತ್ತಿರುವ ಶಿಕ್ಷಣ ಸಂಸ್ಥೆಯ 
+            ಮುಖ್ಯಾಧ್ಯಾಪಕರ/ ಪ್ರಾಚಾರ್ಯರ / ಮುಖ್ಯಸ್ಥರ ಧೃಡೀಕರಣ.</p>
+        <input type="file" id="myFile2" name="filename">
+      </div>
+      <div class="item">
+        <p>2. ಶಿಷ್ಯವೇತನ ಕೋರಿರುವ ವಿದ್ಯಾರ್ಥಿಯ ಪ್ರಮಾಣ ಪತ್ರ</p>
+        <input type="file" id="myFile3" name="filename">
+      </div>
+    </div>
+
+
+        <div class="question">
+          <p>ಘೋಷಣೆ<span class="required">*</span></p>
+          <div class="question-answer checkbox-item">
+            <div>
+              <input type="checkbox" value="none" id="check_1" name="check1" required/>
+              <label for="check_1" class="check"><b><span>ಘೋಷಣೆ 1: ಮೇಲೆ ತಿಳಿಸಿದ ಮಾಹಿತಿಯು ನನ್ನ ನಂಬಿಕೆಯ ಅತ್ಯುತ್ತಮವಾದುದು ಎಂದು ಖಚಿತಪಡಿಸುವುದು.
+                ಯಾವುದೇ ತಪ್ಪಾದ ಮಾಹಿತಿಯ ಸಂದರ್ಭದಲ್ಲಿ ಅನರ್ಹತೆಗೆ ನಾನು ಜವಾಬ್ದಾರನಾಗಿರುತ್ತೇನೆ.</span></b></label>
+            </div>
+            <div>
+              <input type="checkbox" value="none" id="check_2" name="check2" required/>
+              <label for="check_2" class="check"><b><span>ಆಧಾರ್ ಒಪ್ಪಿಗೆ: ಕರ್ನಾಟಕ ಸರ್ಕಾರ 
+                ನೀಡುವ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪ್ರಯೋಜನವನ್ನು ಪಡೆಯಲು ನನ್ನ ಆಧಾರ್ ಸಂಖ್ಯೆ / ದಾಖಲಾತಿ
+                ಐಡಿ ಮತ್ತು ನನ್ನ ಪೋಷಕರು / ಪೋಷಕರ ಆಧಾರ್ ನೀಡಲು ಒಪ್ಪುತ್ತೇನೆ.</span></b></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
