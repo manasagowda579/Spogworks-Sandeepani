@@ -21,13 +21,13 @@
         <div class="item">
           <p>Select the Scholarship Grade you want to apply for:</p>
           <select>
-            <option value="">Grade</option>
             <option value="1">Primary</option>
             <option value="2">Secondary</option>
             <option value="3">PUC/Diploma</option>
-            <option value="4">Engineering/Medical</option>
-            <option value="5">Post Graduation</option>
-            <option value="5">PHD</option>
+            <option value="4">Degree</option>
+            <option value="5">Engineering/Medical</option>
+            <option value="6">Post Graduation</option>
+            <option value="7">PHD</option>
           </select>
         </div>
 
@@ -57,17 +57,6 @@
           <input type="text" name="name"/>
         </div>
 
-        <div class="item">
-          <p>Marital Status:</p>
-          <select>
-            <option value="1">Single</option>
-            <option value="2">Married</option>
-            <option value="3">Widowed</option>
-            <option value="4">Separated</option>
-            <option value="5">Divorced</option>
-          </select>
-        </div>
-
         <div class="question">
           <p>Are you a Specially Abled Person?</p>
           <div>
@@ -82,11 +71,6 @@
           <p>Date Of Birth</p>
           <input type="date" name="bdate"/>
           <i class="fas fa-calendar-alt"></i>
-        </div>
-
-        <div class="item">
-          <p>Proof of DOB</p>
-          <input type="file" id="dob" name="filename">
         </div>
 
         <div class="item">
@@ -109,7 +93,7 @@
         </div>
         
 
-        <h2>Caste & Income Details</h2>
+        <h2>Caste & Income Details<span class="required">*</span></h2>
         <p>Note: If you do not have EWS Certificate please apply in nadakacheri 
           and enter RD number and upload acknowledgment receipt.
         </p>
@@ -129,7 +113,7 @@
         </div>
 
         <div class="item">
-          <p>Upload Certificate</p>
+          <p>Upload EWS Certificate</p>
           <input type="file" id="rd" name="filename">
         </div>
       
@@ -159,11 +143,6 @@
               <option value="5">Bengaluru Urban</option>
             </select>
           </div>
-        </div>
-        <div class="item">
-          <p>Occupation of the Parent/Guardian(*If agriculturists the details of land holdings
-            in Acres/Guntas with description of the crop)</p>
-          <textarea rows="3" required></textarea>
         </div>
         <div class="item">
           <p>Annual of the Parent/Guardian(*Aggregate of the last three years)</p>
@@ -373,12 +352,19 @@
       <div>
       <h3>Click on the "Choose File" button to upload a file:</h3>
       <div class="item">
-        <p>1. Declaration from the Head of the Institution</p>
+        <p>1. A copy of the fee receipt or Declaration from the Head of the Institution 
+          where the student is currently studying</p>
         <input type="file" id="myFile1" name="filename">
       </div>
+
       <div class="item">
-        <p>2. Oath by the student applying for Scholarship</p>
+        <p>2. Applicants Aadhar Card Copy</p>
         <input type="file" id="myFile2" name="filename">
+      </div>
+
+      <div class="item">
+        <p>3. Scanned copy of APL/BPL card of the applicant's family(not compulsory)</p>
+        <input type="file" id="myFile3" name="filename">
       </div>
     </div>
 
